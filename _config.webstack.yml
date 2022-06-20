@@ -15,7 +15,7 @@ flag:
 search: true
 
 userDefinedSearchData:
-  custom: false
+  custom: true
   thisSearch: https://www.baidu.com/s?wd=
   thisSearchIcon: url(https://www.baidu.com/favicon.ico)
   hotStatus: true
@@ -28,9 +28,9 @@ githubCorner: '<a href="https://github.com/HCLonely/hexo-theme-webstack" class="
 
 expandAll: false
 menu:
-  - name: 测试页面
+  - name: 常用网站
     icon: far fa-star
-    config: testPage
+    config: most
   - name: 常用工具
     icon: far fa-star
     config: hotTools
@@ -44,16 +44,24 @@ menu:
         icon: fas fa-blog
         config: myBlog
 
-testPage:
-  - name: Child Page
-    url: /child
+most:
+  - name: 邮箱
+    url: https://mail.qq.com
     img: /images/logos/myblog.png
-    description: 子页面测试
+    description: 收发邮件
+  - name: 翻译
+    url: https://fanyi.baidu.com
+    img: /images/logos/myblog.png
+    description: 语言翻译
+  - name: 天气
+    url: http://www.nmc.cn/
+    img: /images/logos/myblog.png
+    description: 天气预报
 devTools:
-  - name: Github
-    url: https://github.com/
+  - name: 博客
+    url: https://majie.im
     img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
+    description: 个人博客
   - name: Github
     url: https://github.com/
     img: /images/logos/github.png
@@ -82,7 +90,7 @@ aboutPage:
     description: 懒人一个
     html: '<br /><blockquote><p>本站是<a href="https://github.com/HCLonely">HCLonely</a>基于<a href="https://github.com/WebStackPage/WebStackPage.github.io">WebStackPage</a>项目做的一款<a href="https://hexo.io/">Hexo</a>主题。</p></blockquote>'
 
-since: 2020
+since: 2022
 
 busuanzi:
   enable: true
