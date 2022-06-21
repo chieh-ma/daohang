@@ -23,15 +23,12 @@ userDefinedSearchData:
     - name: 百度
       img: url(https://www.baidu.com/favicon.ico)
       url: https://www.baidu.com/s?wd=
-    data:
     - name: 知乎
       img: url(https://www.zhihu.com/favicon.ico)
       url: https://www.zhihu.com/search?type=content&q=
-    data:
     - name: 搜狗
       img: url(https://www.sogou.com/favicon.ico)
       url: https://www.sogou.com/web?query=
-    data:
     - name: 豆瓣
       img: url(https://www.douban.com/favicon.ico)
       url: https://www.douban.com/search?q=
