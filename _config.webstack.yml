@@ -64,7 +64,7 @@ most:
     description: 多语种即时在线翻译
   - name: 中央气象台
     url: http://www.nmc.cn/
-    img: http://www.nmc.cn/favicon.ico
+    img: http://image.nmc.cn/assets/favicon.ico
     description: 关注阴晴冷暖,气象一直为你
   - name: 百度搜索
     url: https://www.baidu.com/
