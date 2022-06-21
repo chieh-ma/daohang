@@ -54,18 +54,22 @@ menu:
         config: myBlog
 
 most:
-  - name: 邮箱
-    url: https://mail.qq.com
-    img: /images/logos/myblog.png
-    description: 收发邮件
-  - name: 翻译
-    url: https://fanyi.baidu.com
-    img: /images/logos/myblog.png
-    description: 语言翻译
-  - name: 天气
+  - name: QQ邮箱
+    url: https://mail.qq.com/
+    img: https://mail.qq.com/favicon.ico
+    description: 常联系！
+  - name: 百度翻译
+    url: https://fanyi.baidu.com/
+    img: https://fanyi.baidu.com/favicon.ico
+    description: 多语种即时在线翻译
+  - name: 中央气象台
     url: http://www.nmc.cn/
-    img: /images/logos/myblog.png
-    description: 天气预报
+    img: http://www.nmc.cn/favicon.ico
+    description: 关注阴晴冷暖,气象一直为你
+  - name: 百度搜索
+    url: https://www.baidu.com/
+    img: https://www.baidu.com/favicon.ico
+    description: 百度搜索首页
 devTools:
   - name: 博客
     url: https://majie.im
